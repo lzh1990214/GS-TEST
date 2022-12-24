@@ -139,13 +139,13 @@ filter.click(function (e) {
     if (filterDisplay === 'none') {
         $('#filter-box').attr('style', 'display:show');
         $('#homepage-spacer-btm').attr('style', 'display:none');
-        
     } else {
         $('#filter-box').attr('style', 'display:none');
         $('#plant-card-container').empty();
         $('#result-number-text').text('');
         $('#homepage-spacer-btm').attr('style', 'display:show');
         $('#img-plant-row').attr('style', 'display:show');
+        $('#search-input').val('');
         // reset the plants name array to include all plants for search input
         allPlantsInThisCategory(allPlantsCommonLatinNames);
     };

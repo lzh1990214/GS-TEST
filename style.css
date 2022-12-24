@@ -1,20 +1,22 @@
 :root {
-    --title-font-family:'Roboto',sans-serif;
-    --logo-font-family:'Aclonica',sans-serif;
+    --title-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Aclonica', sans-serif;
     --dark-green: #2C5732;
     --medium-green: #688C4F;
     --light-green: #CAD9BA;
     --medium-purple: #A64E7E;
     --tan: #D99771;
-    --light-blue: #BFD6D9; }
+    --light-blue: #BFD6D9;
+}
 
-*{
+* {
     font-family: var(--title-font-family);
 }
 
 
-h1{
-    font-family:var(--logo-font-family --dark-green);}
+h1 {
+    font-family: var(--logo-font-family --dark-green);
+}
 
 /* main {
     width:80%;
@@ -59,7 +61,7 @@ h1{
     color: rgb(3, 115, 66);
 } */
 
-li:hover {  
+li:hover {
     /* background-color:rgb(114, 232, 181); */
     opacity: 0.5;
 }
@@ -157,6 +159,9 @@ nav a {
     background-color: white;
 }
 
+#plant-card-container img {
+    cursor: pointer;
+}
 
 
 
@@ -302,13 +307,3 @@ nav a {
 
 
 /* Suvarna Lines 207 to end of file*/
-
-
-
-
-
-
-
-
-
-
